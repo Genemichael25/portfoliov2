@@ -39,16 +39,17 @@ h2 {
   text-align: center;
   font-size: 50.52px;
   font-family: 'Oswald', sans-serif;
-  margin: 25px;
+  margin-top: 50px;
   margin-bottom: 5px;
   color: #536F16;
 }
 
 .aboutmetext {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: auto;
+  text-align: center;
   font-size: 21.3px;
   font-family: 'Oswald', sans-serif;
+  width: 50%;
 }
 
 hr {
@@ -56,6 +57,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 30%;
 }
 
 .skills_table {
@@ -98,6 +100,8 @@ hr {
 .nav-link {
    color: #536F16;
    font-size:26px;
+   margin-left: 60px;
+   margin-right: 10px;
 }
 /* .nav-link:hover {
   color: black;
@@ -149,4 +153,26 @@ a:hover {
 
 a:hover::before{
   width: 100%;
+}
+
+.features {
+  display: flex;
+  flex: wrap;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:125px;
+}
+
+.info {
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+h5 {
+  margin-left: 50px;
 }

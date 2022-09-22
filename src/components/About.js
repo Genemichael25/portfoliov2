@@ -21,7 +21,7 @@ const About = () => {
         When I am not on the computer trying new things, you might find me with a 🛠 in my hand. As a handyman physically building or updating a portion of the home. Or perhaps I am at a sporting event, cheering on my favorite teams.⚽️🏈🏀⚾️  
         <br />
         I am looking for an opportunity as a junior software developer that will allow me to practice my skills, as well as , develop some new ones.</p>
-        <div className="aboutmetext" style={{float:"right"}}> Want to know more? <NavLink to="/aboutme"><strong>Check out the long story -{'>'}</strong> </NavLink>
+        <div className="aboutmetext" style={{textAlign:"center"}}> Want to know more? <NavLink to="/aboutme"><strong>Check out the long story -{'>'}</strong> </NavLink>
         </div>
         <br/>
       <h2>Tools I Use.</h2>
