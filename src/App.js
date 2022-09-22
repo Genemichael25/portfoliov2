@@ -1,15 +1,29 @@
 import React from 'react'
-import { About } from './components/About'
-import { Footer } from './components/Footer'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { LandingPage } from './pages/LandingPage'
+import "./App.css"
 import { Header } from './components/Header'
-import { Projects } from './components/Projects'
+import { Footer } from './components/Footer'
+import { AboutMe } from './pages/AboutMe'
+import { Contact } from './pages/Contact'
+import { Uncharted } from './pages/Uncharted'
+import { ApartmentApp } from './pages/ApartmentApp'
+import { Savannah } from './pages/Savannah'
 
 const App = () => {
   return (
     <>
       <Header />
-      <About />
-      <Projects />
+        <Router>
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/aboutme" element={<AboutMe />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/project-uncharted" element={<Uncharted />}/>
+            <Route path="/project-apartment" element={<ApartmentApp />}/>
+            <Route path="/project-savannahtinder" element={<Savannah />}/>
+          </Routes>
+        </Router>
       <Footer />
     </>
   )

@@ -1,40 +1,39 @@
 import React from "react";
-import { Card, CardBody, CardTitle, CardText, CardLink} from "reactstrap";
+import { Card, CardBody, CardTitle, CardText, CardLink, Row, CardImg } from "reactstrap";
 import { projects } from "../ProjectInfo";
 
 const Projects = () => {
   return (
     <>
       <h2>What I've worked on.</h2>
-      {projects.map(projects => 
-      <Card key={projects.id}
-  style={{
-    width: '18rem'
-  }}
->
-  <CardBody>
-    <CardTitle tag="h5">
-      {projects.name}
-    </CardTitle>
-    
-  </CardBody>
-  <img
-    alt="Card cap"
-    src={projects.image}
-    width="100%"
-  />
-  <CardBody>
-    <CardText>
-      {projects.shortdescription}
-    </CardText>
-    <CardLink href="#">
-      Card Link
-    </CardLink>
-    
-  </CardBody>
-</Card>)}
+      <hr></hr>
+      <div className="projects">
+        <Row sm="3" style={{
+          display: "flex",
+          justifyContent: "space-between",
+          flexWrap: "wrap",
+        }}>
+          {projects.map((projects) => (
+            <Card key={projects.id}
+              style={{
+                width: "30%",
+                margin: "15px",
+                textAlign: "center"
+              }}
+            >
+              <CardTitle tag="h5">{projects.name}</CardTitle>
+              <CardImg alt="Card cap" src={projects.image} width="100%" height= "450px" border= "1px,solid,black"/>
+              <CardBody>
+                <CardText>{projects.shortdescription}</CardText>
+                <CardLink href={projects.link}>See More</CardLink>
+              </CardBody>
+            </Card>
+          ))}
+        </Row>
+      </div>
     </>
   )
 }
 
-export { Projects };
+export { Projects }
+

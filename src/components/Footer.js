@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-  return <>© Gene Martinez</>
+  return <div className="footer">© Gene Martinez</div>
 }
 
 export { Footer }
