@@ -35,6 +35,7 @@ const About = () => {
             <th>Ruby on Rails</th>
             <th>Postgresql</th>
             <th>Tailwind</th>
+            <th>Figma</th>
           </tr>
         </thead>
       </Table>

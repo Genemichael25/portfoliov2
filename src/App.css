@@ -39,7 +39,7 @@ h2 {
   text-align: center;
   font-size: 50.52px;
   font-family: 'Oswald', sans-serif;
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 5px;
   color: #536F16;
 }
@@ -54,14 +54,16 @@ h2 {
 
 hr {
   width: 400px;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
-  margin-left: 30%;
+  justify-content: center; */
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .skills_table {
-  width:1000px;
+  width:100%;
   display: flex;
   justify-content: space-around;
 }
@@ -96,12 +98,15 @@ hr {
 .collapse-navbar-collapse {
   font-size: 26px;
   font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+
 }
 .nav-link {
    color: #536F16;
    font-size:26px;
    margin-left: 60px;
    margin-right: 10px;
+   font-family: 'Oswald', sans-serif;
 }
 /* .nav-link:hover {
   color: black;
@@ -133,6 +138,8 @@ a, .nav-link {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.4s ease-in-out;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 a:before{
@@ -160,19 +167,31 @@ a:hover::before{
   flex: wrap;
   margin-left: 50px;
   margin-right: 50px;
-  text-align: center;
+  text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom:125px;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 .info {
   margin-left: 50px;
   margin-right: 50px;
-
+  font-family: 'Oswald', sans-serif;
+  width: 50%;
 }
 
-h5 {
+h4 {
+  font-family: 'Oswald', sans-serif;
+  color: #536F16;
   margin-left: 50px;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  color: #536F16;
+  margin-top: 75px;
+  text-align: center;
 }

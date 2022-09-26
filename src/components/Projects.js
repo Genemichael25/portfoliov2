@@ -22,7 +22,7 @@ const Projects = () => {
               }}
             >
               <CardTitle tag="h5">{projects.name}</CardTitle>
-              <CardImg alt="Card cap" src={projects.image} width="100%" height= "450px" border= "1px,solid,black"/>
+              <CardImg alt="Card cap" src={projects.image} width="100%" height= "67%" border= "1px,solid,black"/>
               <CardBody>
                 <CardText>{projects.shortdescription}</CardText>
                 <CardLink href={projects.link}>See More</CardLink>
