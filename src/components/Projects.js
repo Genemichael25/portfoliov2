@@ -5,7 +5,7 @@ import { projects } from "../ProjectInfo";
 const Projects = () => {
   return (
     <>
-      <h2>What I've worked on.</h2>
+      <h2>What I've Worked On.</h2>
       <hr></hr>
       <div className="projects">
         <Row sm="3" style={{

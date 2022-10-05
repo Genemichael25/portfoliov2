@@ -16,8 +16,13 @@ const AboutMe = () => {
       <div className="stories">
         <p>Freshly out of the military, I began looking into college. I enrolled at San Bernardino Community College and began classes in March. I began to notice that some of my experience in the Army was helpful in my studies and I really enjoyed my time there. I earned my Associate's in Business Administration in December of 2020.</p>
       </div>
+      <div>
+        <img src="/Gene3.jpg" alt="Gene pic"/>
+      </div>
     </>
   )
 }
 
 export { AboutMe }
+      
+     

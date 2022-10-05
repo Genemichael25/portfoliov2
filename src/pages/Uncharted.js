@@ -16,7 +16,7 @@ const Uncharted = () => {
     </div>
     <h4>Features</h4>
     <div className='features'>
-      <p>One of the pages we incorporated into our app is a display of the Seven Wonders of the world. Our intention was to inspire people to get out there and explore by displaying these beautiful locations in an automated carousel, that also allows for user interaction. </p>
+      <p style={{marginRight:"50px"}}>One of the pages we incorporated into our app is a display of the Seven Wonders of the world. Our intention was to inspire people to get out there and explore by displaying these beautiful locations in an automated carousel, that also allows for user interaction. </p>
       <img src='/Wonders.gif' alt='wonders gif' width="45%" />
     </div>
     <div className='features'>
@@ -26,7 +26,7 @@ const Uncharted = () => {
     <h4>Challenges & Lessons Learned</h4>
     <div className='info'>
       <li>Finding an external API that would generate a random location and provide an image and name at a minimum.</li>
-      <p><strong>Learned:</strong>Doing research and finding an API that will provide you with the endpoints that you need takes time. We were able to still implement the feature that we desired, but we had to create our own data. We then used Math.random to select a random index in our array and display the pertinent information to the user.</p>
+      <p><strong>Learned:</strong> Doing research and finding an API that will provide you with the endpoints that you need takes time. We were able to still implement the feature that we desired, but we had to create our own data. We then used Math.random to select a random index in our array and display the pertinent information to the user.</p>
     </div>
     </>
   )

@@ -31,8 +31,8 @@
   border-radius: 50%;
   float: right;
   height: 75vh;
-  width: 65vh;
-  margin-left: 15px;
+  width: auto;
+  margin-left: 55px;
 }
 
 h2 {
@@ -54,17 +54,15 @@ h2 {
 
 hr {
   width: 400px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   margin-left: auto;
   margin-right: auto;
 
 }
 
 .skills_table {
-  width:100%;
-  display: flex;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: space-around;
 }
 
@@ -82,6 +80,7 @@ hr {
   width: 50%;
   margin-left: 50px;
 }
+
 
 
 
@@ -173,7 +172,7 @@ a:hover::before{
   align-items: center;
   margin-bottom:125px;
   font-family: 'Oswald', sans-serif;
-
+  font-size: 1.25rem;
 }
 
 .info {
@@ -181,6 +180,8 @@ a:hover::before{
   margin-right: 50px;
   font-family: 'Oswald', sans-serif;
   width: 50%;
+  font-size: 1.25rem;
+
 }
 
 h4 {
