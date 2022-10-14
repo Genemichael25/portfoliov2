@@ -4,7 +4,7 @@ const Uncharted = () => {
   return (
     <>
     <h2>Uncharted</h2>
-    <a href='https://thawing-oasis-45194.herokuapp.com/' target="_blank" rel="noreferrer" title='Uncharted'><h5>Live Link</h5></a>
+    <a href='https://thawing-oasis-45194.herokuapp.com/' target="_blank" rel="noreferrer" title='Uncharted' style={{marginLeft:"48%"}}><h5 >Live Link</h5></a>
     <h4>What is it?</h4>
     <div className='info'>
       <p>Revisiting trip highlights and those carefree moments has never been easier! For the first time ever, avid or aspiring travelers can now archive previous trips using photos and personal details. 'Uncharted' combines travel mapping and the art of journaling into an interactive life story experience. Document old memories, while creating new ones all in place! So whether you want a way to keep track of already visited destinations, searching for location inspiration, or are looking for resources on how to make traveling less complicated and more affordable; 'Uncharted' has your back.
