@@ -11,7 +11,7 @@ const Uncharted = () => {
       <br/>
       </p>
       <p>
-      This is a React in Rails application with full CRUD functionality. We used the gem devise for user authentication and have 2 database tables. We planned, organized a work flow for the team and built wireframes before coding began, during which we practiced Test Driven Development. We are proud to present 'Uncharted'!
+      This is a React in Rails application with full CRUD functionality. We have 2 database tables. We planned, organized a work flow for the team and built wireframes before coding began, during which we practiced Test Driven Development. We are proud to present 'Uncharted'!
       </p>
     </div>
     <h4>Features</h4>

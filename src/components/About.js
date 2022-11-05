@@ -44,7 +44,7 @@ const About = () => {
             <td>JavaScript</td>
             <td>React</td>
             <td>Ruby on Rails</td>
-            <td>Postgresql</td>
+            <td>PostgreSQL</td>
             <td>Tailwind</td>
             <td>Figma</td>
           </tr>

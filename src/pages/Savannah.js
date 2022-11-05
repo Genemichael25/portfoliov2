@@ -17,7 +17,7 @@ const Savannah = () => {
       </div>
       <div className='features'>
         <img src='/STshow.png' alt='ST show' width="45%" />
-        <p>Once a user wants more information about a certain member, they are taken to a page where only that member is displayed. By using string interpolation, we can give a friendly intro about that member and what they enjoy doing. A members info can also be updated or deleted from this page.</p>
+        <p style={{marginLeft:"50px"}}>Once a user wants more information about a certain member, they are taken to a page where only that member is displayed. By using string interpolation, we can give a friendly intro about that member and what they enjoy doing. A members info can also be updated or deleted from this page.</p>
       </div>
       <h4>Challenges & Lessons Learned</h4>
       <div className='info'>

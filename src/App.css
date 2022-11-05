@@ -175,6 +175,21 @@ a:hover::before{
   font-size: 1.25rem;
 }
 
+.features2 {
+  display: flex;
+  flex: wrap;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:125px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25rem;
+}
+
 .info {
   margin-left: 50px;
   margin-right: 50px;
@@ -204,4 +219,15 @@ h1,h3 {
   margin-right: auto;
   font-family: 'Oswald', sans-serif;
   font-size: 1.25rem;
+}
+
+.icons {
+  margin: 15px
+}
+
+.photos {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
 }
