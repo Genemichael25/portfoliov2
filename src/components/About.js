@@ -8,11 +8,10 @@ const About = () => {
   return (
     <>
       <div className="container">
-        <div className="box-green"></div>
-        <div className="name-in-box">GENE<br />MARTINEZ<br /><a href="https://www.linkedin.com/in/gene-martinez/" target="_blank" rel="noreferrer" title='linkedin'><SiLinkedin color="black"/></a>{" "}<a href="https://github.com/Genemichael25" target="_blank" rel="noreferrer" title='github'><SiGithub color="black"/></a>
-        
+        <div className="box-green"><div className="name-in-box">GENE<br />MARTINEZ<br /><a href="https://www.linkedin.com/in/gene-martinez/" target="_blank" rel="noreferrer" title='linkedin'><SiLinkedin color="black"/></a>{" "}<a href="https://github.com/Genemichael25" target="_blank" rel="noreferrer" title='github'><SiGithub color="black"/></a></div>
         </div>
-        <img className="mypic" src="/Gene2.jpg" alt="Gene pic"/>
+       
+      <img className="mypic" src="/Gene2.jpg" alt="Gene pic"/>
       </div>
       <h2>Who I Am.</h2>
       <hr></hr>
@@ -34,9 +33,6 @@ const About = () => {
             <th><FaJs size="4rem"/></th>
             <th><FaReact size="4rem"/></th>
             <th><SiRubyonrails size="4rem"/></th>
-            <th><SiPostgresql size="4rem"/></th>
-            <th><SiTailwindcss size="4rem"/></th>
-            <th><FaFigma size="4rem"/></th>
           </tr>
         </thead>
         <tbody>
@@ -44,6 +40,17 @@ const About = () => {
             <td>JavaScript</td>
             <td>React</td>
             <td>Ruby on Rails</td>
+          </tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th><SiPostgresql size="4rem"/></th>
+            <th><SiTailwindcss size="4rem"/></th>
+            <th><FaFigma size="4rem"/></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
             <td>PostgreSQL</td>
             <td>Tailwind</td>
             <td>Figma</td>

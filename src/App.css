@@ -4,35 +4,83 @@
 .box-green {
   background-color: #536F16;
   height: 75vh;
-  width: 85vh;
+  width: 45vw;
   margin-left: 20px;
-  position: relative;
+  margin-right: 20px;
   background-image: linear-gradient(to right, #536F16 , white);
-  float:left;
+  font-size: 3rem;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+@media (max-width: 390px) {
+  .box-green {
+    display: none;
+  }
 }
 
 .name-in-box {
-  font-size: 75px;
-  position: absolute;
-  top: 50%;
-  left: 25.5%;
-  transform: translate(-48.5%, -50%);
+  font-size: 3rem;
   font-family: 'Oswald', sans-serif;
+}
+
+@media (max-width: 600px) {
+  .name-in-box {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 190px) {
+  .name-in-box {
+    font-size: 3rem;
+  }
 }
 
 .container {
   margin-left: 15px;
   margin-right: 15px;
   display: flex;
-  flex-wrap: wrap;
+  flex: inline; 
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 546px) {
+  .container {
+    width: auto;
+    height: auto;
+  }
 }
 
 .mypic {
   border-radius: 50%;
-  float: right;
   height: 75vh;
   width: auto;
   margin-left: 55px;
+}
+
+@media (max-width: 390px) {
+  .mypic,.container {
+    width: 85%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #536F16;
+    background-image: linear-gradient(to top, #536F16 , white, #536F16);
+  }
+}
+
+@media (max-width: 767px) {
+  .mypic, .box-green {
+    height: 50vh;
+    width: 85%;
+  }
 }
 
 h2 {
@@ -52,8 +100,14 @@ h2 {
   width: 50%;
 }
 
+@media (max-width: 390px) {
+  .aboutmetext {
+    width: 85%;
+  }
+}
+
 hr {
-  width: 400px;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 
@@ -81,19 +135,36 @@ hr {
   margin-left: 50px;
 }
 
+.card {
+  width:30%;
+  margin: 15px;
+  text-align: center;
+}
 
+@media (max-width: 875px){
+  .card{
+    width:45%;
+  }
+}
 
+@media (max-width: 575px){
+  .card{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
+@media (max-width: 400px) {
+  .card{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+}
 /* -------------Nav Bar-------------  */
 
-
-/* .navbar-title {
-  color: black;
-  font-size: 60px;
-} */
-/* :hover .navbar-title {
-  color: white;
-} */
 .collapse-navbar-collapse {
   font-size: 26px;
   font-weight: bold;
@@ -107,17 +178,7 @@ hr {
    margin-right: 10px;
    font-family: 'Oswald', sans-serif;
 }
-/* .nav-link:hover {
-  color: black;
-}
-.nav-link::after {
-  color:  #536F16;
-}
-a {
-  color: black;
-  text-decoration: none;
 
-} */
 .navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
   color:  #536F16
 }
@@ -230,4 +291,9 @@ h1,h3 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
+}
+
+th, td {
+  width:33%;
+  text-align:center;
 }
