@@ -11,6 +11,7 @@ import {
   DropdownMenu,
   DropdownItem
 } from "reactstrap"
+import { projects } from "../ProjectInfo";
 
 const Header = () => {
   const [collapsed, setCollapsed] = useState(false);
@@ -28,15 +29,11 @@ const Header = () => {
                     My Work
                   </DropdownToggle>
                   <DropdownMenu className="collapse-navbar-collapse" end>
+                  {projects.map(project => 
                     <DropdownItem className="topnav-right">
-                      <a href="/project-uncharted">Uncharted</a>
+                      <a href={project.link}>{project.name}</a>
                     </DropdownItem>
-                    <DropdownItem>
-                      <a href="/project-apartment">Apartment App</a>
-                    </DropdownItem>
-                    <DropdownItem>
-                      <a href="/project-savannahtinder">Savannah Tinder</a>
-                    </DropdownItem>
+                    )}
                   </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>

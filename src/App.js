@@ -9,6 +9,7 @@ import { Contact } from './pages/Contact'
 import { Uncharted } from './pages/Uncharted'
 import { ApartmentApp } from './pages/ApartmentApp'
 import { Savannah } from './pages/Savannah'
+import { StudentApp } from './pages/StudentApp'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
             <Route path="/" element={<LandingPage />} />
             <Route path="/aboutme" element={<AboutMe />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/project-student-app" element={<StudentApp />}/>
             <Route path="/project-uncharted" element={<Uncharted />}/>
             <Route path="/project-apartment" element={<ApartmentApp />}/>
             <Route path="/project-savannahtinder" element={<Savannah />}/>
