@@ -7,6 +7,7 @@ import { SiGithub, SiLinkedin, SiPostgresql, SiRubyonrails, SiTailwindcss } from
 const About = () => {
   return (
     <>
+      <img className="" src="/eibsee.jpg" alt="Eibsee" height={"100%"} width={"100%"}/>
       <div className="container">
         <div className="box-green"><div className="name-in-box">GENE<br />MARTINEZ<br /><a href="https://www.linkedin.com/in/gene-martinez/" target="_blank" rel="noreferrer" title='linkedin'><SiLinkedin color="black"/></a>{" "}<a href="https://github.com/Genemichael25" target="_blank" rel="noreferrer" title='github'><SiGithub color="black"/></a></div>
         </div>

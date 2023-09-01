@@ -59,13 +59,13 @@
 }
 
 .mypic {
-  border-radius: 50%;
-  height: 75vh;
+  /* border-radius: 60%; */
+  /* height: 75vh;
   width: auto;
-  margin-left: 55px;
+  margin-left: 55px; */
 }
 
-@media (max-width: 390px) {
+/* @media (max-width: 390px) {
   .mypic,.container {
     width: 85%;
     height: auto;
@@ -74,14 +74,14 @@
     background-color: #536F16;
     background-image: linear-gradient(to top, #536F16 , white, #536F16);
   }
-}
+} */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .mypic, .box-green {
     height: 50vh;
     width: 85%;
   }
-}
+} */
 
 h2 {
   text-align: center;
